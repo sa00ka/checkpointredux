@@ -1,0 +1,19 @@
+.addform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+
+}
+
+.addform >*{
+    margin: 30px;
+    
+}
+input[type=text] {
+    width: 25%;
+    height: 40px;
+    border-radius: 4px;
+    border-style: groove;
+    
+  }

@@ -1,0 +1,43 @@
+.elcheckbox{
+
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+
+}
+.elkoll{
+    padding: 0;
+    margin: 0;
+}
+.ellista, .ettiter, .elbotnat{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.ettiter{
+    justify-content: space-between;
+    width: 30%;
+}
+.ellista{
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+    margin-top: 5px;
+
+}
+.elcheckbox, .btn{
+    margin: auto 20px;
+}
+.filterbutton{
+    margin-bottom: 30px;
+}
+.todofinished{
+    text-decoration: line-through;
+}
